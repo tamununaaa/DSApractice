@@ -4,11 +4,11 @@ public class selectionSort {
     {
         Scanner sc = new Scanner(System.in);
         
-        int n = sc.nextInt();
-        int arr[] = new int[n];
+        int n = sc.nextInt();                   //length of array
+        int arr[] = new int[n];                 //declare array
 
         for(int i=0;i<n;i++)
-            arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt();              //input array elements
         
         for(int i=0;i<n-1;i++)
         {
@@ -16,10 +16,10 @@ public class selectionSort {
 
             for(int j=i+1;j<n;j++)
             {
-                if(arr[j]<arr[mindex])
-                    mindex = j;
+                if(arr[j]<arr[mindex])          //find minimum element in unsorted sub-array
+                    mindex = j;                 //assign minimum element index to mindex
 
-                int temp = arr[i];
+                int temp = arr[i];              //swap minimum element with first element
                 arr[i] = arr[mindex];
                 arr[mindex] = temp;
             }
