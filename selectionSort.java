@@ -8,7 +8,7 @@ public class selectionSort {
         int arr[] = new int[n];                 //declare the array
 
         for(int i=0;i<n;i++)
-            arr[i] = sc.nextInt();              //input array elements
+            arr[i] = sc.nextInt();              //input the array elements
         
         for(int i=0;i<n-1;i++)
         {
