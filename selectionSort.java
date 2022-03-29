@@ -5,7 +5,7 @@ public class selectionSort {
         Scanner sc = new Scanner(System.in);
         
         int n = sc.nextInt();                   //length of array
-        int arr[] = new int[n];                 //declare array
+        int arr[] = new int[n];                 //declare the array
 
         for(int i=0;i<n;i++)
             arr[i] = sc.nextInt();              //input array elements
