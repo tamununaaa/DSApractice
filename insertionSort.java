@@ -8,7 +8,7 @@ public class insertionSort {
         int arr[] = new int[n];                 //declare array
 
         for(int i=0;i<n;i++)
-            arr[i] = sc.nextInt();              //input array elements
+            arr[i] = sc.nextInt();              //input the array elements
 
         for(int i=1;i<n;i++)
         {
