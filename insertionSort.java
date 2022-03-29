@@ -10,7 +10,7 @@ public class insertionSort {
         for(int i=0;i<n;i++)
             arr[i] = sc.nextInt();
 
-        for(int i=0;i<n;i++)
+        for(int i=1;i<n-1;i++)
         {
             int key = arr[i];
             int j = i-1;
