@@ -1,0 +1,30 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();                       //length of array
+        int arr[] = new int[n];                     //declare array
+        
+        for(int i=0;i<n;i++)
+        arr[i] = sc.nextInt();                      //input array elements
+        
+        for(int i=0;i<n-1;i++)
+        {
+            int mindex = i;                         
+            for(int j=i+1;j<n;j++)
+                if(arr[j]<arr[mindex])              //check condition
+                {   
+                    mindex = j;                     //change value of mindex
+                
+                    int temp = arr[mindex];         //swap value of array at mindex and i
+                    arr[mindex] = arr[i];
+                    arr[i] = temp;
+                }
+        }
+        
+        for(int i=0;i<n;i++)
+                System.out.print(arr[i]+ " ");      //print sorted array
+
+    }
+}
