@@ -10,9 +10,9 @@ import java.util.*;
 class LinkedListOperations{
 
     public static void main(String[] args) {
-        LinkedList<String> list = new LinkedList<String>();     //Create a linked list called 'list' of String type
+        LinkedList<String> list = new LinkedList<String>();       //Create a linked list called 'list' of String type
 
-        list.add("Germany");                                    //using add(Object) function to add elements at the end of the list
+        list.add("Germany");                                      //using add(Object) function to add elements at the end of the list
         list.add("Ireland");
         list.add("France");
         list.add("Ukraine");
@@ -20,11 +20,11 @@ class LinkedListOperations{
         System.out.println("ORIGINAL LINKED LIST: ");
         System.out.println(list);                                 //Print the list
 
-        list.add(1,"Luxembourg");                               //Using add(int index, Object) function to add elements at the specified position
+        list.add(1,"Luxembourg");                                 //Using add(int index, Object) function to add elements at the specified position
         list.add(3,"New Zealand");
 
         System.out.println("NEW LINKED LIST: ");
-        System.out.println(list);                               //Print the new LinkedList
+        System.out.println(list);                                //Print the new LinkedList
         
     }
 }
