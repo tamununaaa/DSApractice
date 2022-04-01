@@ -15,7 +15,7 @@ public class iterationOperations {
         list.add("Ireland");
         list.add("France");
         list.add("Ukraine");
-        list.add("Luxembourg");                                 
+        list.add("Luxembourg");                                                         
         list.add("New Zealand");
 
         //Using get() function
