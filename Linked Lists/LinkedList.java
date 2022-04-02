@@ -9,10 +9,10 @@ public class LinkedList
 
     static class Node                                       //static inner class
     {
-        String data;                                           //data part of the node
+        String data;                                        //data part of the node
         Node next;                                          //link part of the node(connect each node to next node)
 
-        Node(String s)                                         //default constructor to initialize value
+        Node(String s)                                      //default constructor to initialize value
         {
             data = s;
             next = null;
