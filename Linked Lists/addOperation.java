@@ -1,5 +1,5 @@
 /*
-In order to add an element to an ArrayList, we can use the add() method that is overloaded to perform 
+In order to add an element to an LinkedList, we can use the add() method that is overloaded to perform 
 multiple operations based on different parameters. They are:  
     1) add(Object): This method is used to add an element at the end of the LinkedList.
     2) add(int index, Object): This method is used to add an element at a specific index in the LinkedList.
