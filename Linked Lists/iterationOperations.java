@@ -1,8 +1,8 @@
 /*
 There are multiple ways to iterate through LinkedList. Two most commonly used ways are:
-    1)get() method: to get the element at a specific index and the advanced for-loop
-    2)for-loop
-    2)iterator() of Iterator class
+    1)Using Iterator
+    2)Using for-each loop
+    2)Using for-loop
 */
 package LinkedList.LinkedListOperations;
 import java.util.*;
