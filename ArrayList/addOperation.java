@@ -1,6 +1,5 @@
 /*
-In order to add an element to an ArrayList, we can use the add() method that is overloaded to perform 
-multiple operations based on different parameters. They are:
+In order to add an element to an ArrayList, we can use the following methods:
     1) add(Object): Add elements to the end of the list
     2) add(int index, Object): Add elements at a specific index of the list
     3) addAll(Object): Add elements of another list at the end of the list
